@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+         <h2>JavaScript Class Inheritance</h2>
+         <p id="details"></p>
+         <p id="greetings"></p>
+         <script>
+            class Grade extends Student {
+                constructor(name,grade) {
+                    super(name);
+                    this.studentGrade = grade;
+                }
+                show() {
+                    return this.present() + ', ' + from + ' + this.studentGrade;
+                }
+                }
+              let myStudent = new Grade ("Tina", "grade 6");
+              document.getElementById("details").innerHTMML = myStudent.show();
+              // hello() is a static method cannot be accessed by object
+              document.getElementById("geetings").innerHTMML = Student.hello();
+              </script>
+              </body>
+              </html>
+            
